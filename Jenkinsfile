@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                'Deploy app'
+                echo 'Deploy app'
             }
         }
     }
